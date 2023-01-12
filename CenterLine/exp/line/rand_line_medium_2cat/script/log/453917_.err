@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "demo_line.py", line 31, in <module>
+    demo(opt)
+  File "demo_line.py", line 15, in demo
+    Detector = detector_factory[opt.dataset]
+KeyError: 'roboline'

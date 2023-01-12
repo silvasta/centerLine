@@ -1,0 +1,50 @@
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/functional.py:52: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    main(opt)
+  File "main.py", line 84, in main
+    log_dict_train, _ = trainer.train(epoch, train_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 125, in train
+    return self.run_epoch('train', epoch, data_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 101, in run_epoch
+    self.debug(batch, output, iter_id)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/line.py", line 112, in debug
+    debugger.add_lines(dets[i, k, :4], dets[i, k, -1],img_id="out_pred")
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/debugger.py", line 184, in add_lines
+    print_lines(self.imgs[img_id], bbox[0:4], color=c,cat=cat)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/metric.py", line 130, in print_lines
+    cv2.line(img, line[0], line[1], color, 3)
+cv2.error: OpenCV(4.5.2) :-1: error: (-5:Bad argument) in function 'line'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+
+Traceback (most recent call last):
+  File "test.py", line 61, in <module>
+    test(opt)
+  File "test.py", line 33, in test
+    detector = Detector(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 26, in __init__
+    super(LineDetector, self).__init__(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 25, in __init__
+    self.model = load_model(self.model, opt.load_model)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/model.py", line 31, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/rand_line_medium_4cat/model_last.pth'
+Traceback (most recent call last):
+  File "demo.py", line 57, in <module>
+    demo(opt)
+  File "demo.py", line 21, in demo
+    detector = Detector(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 26, in __init__
+    super(LineDetector, self).__init__(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 25, in __init__
+    self.model = load_model(self.model, opt.load_model)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/model.py", line 31, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/default/model_last.pth'

@@ -1,0 +1,6 @@
+2021-08-18-17-07: epoch: 1 |loss 7.681251 | hm_loss 3.197281 | wh_loss 41.168339 | off_loss 0.367136 | time 0.250000 | 
+2021-08-18-17-07: epoch: 2 |loss 6.759384 | hm_loss 2.565778 | wh_loss 39.390886 | off_loss 0.254517 | time 0.233333 | 
+2021-08-18-17-07: epoch: 3 |loss 5.902051 | hm_loss 2.622178 | wh_loss 30.186377 | off_loss 0.261235 | time 0.250000 | 
+2021-08-18-17-07: epoch: 4 |loss 5.208733 | hm_loss 2.696383 | wh_loss 22.420982 | off_loss 0.270253 | time 0.250000 | 
+2021-08-18-17-08: epoch: 5 |loss 4.942643 | hm_loss 2.584974 | wh_loss 20.951086 | off_loss 0.262560 | time 0.250000 | loss 5.346833 | hm_loss 2.702791 | wh_loss 24.116846 | off_loss 0.232358 | time 0.016667 | 
+2021-08-18-17-08: epoch: 6 |loss 4.601419 | hm_loss 2.440174 | wh_loss 19.046686 | off_loss 0.256577 | time 0.250000 | 

@@ -1,0 +1,22 @@
+DCNv2 compiled correctly
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+Detector <class 'detectors.line_detector.NewLineDetector'>
+==> initializing rand_line_1k "val" data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 100 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/rand_line_small_2cat/model_last.pth, epoch 140
+
+before add
+
+1
+cat 0.02989575
+0
+[204.55795 136.1665  204.60068 136.95721]

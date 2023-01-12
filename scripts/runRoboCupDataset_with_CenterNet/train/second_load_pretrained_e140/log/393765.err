@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "main.py", line 103, in <module>
+    main(opt)
+  File "main.py", line 37, in main
+    model, opt.load_model, optimizer, opt.resume, opt.lr, opt.lr_step)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/model.py", line 34, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/resnet_self_trained/model_best.pth'

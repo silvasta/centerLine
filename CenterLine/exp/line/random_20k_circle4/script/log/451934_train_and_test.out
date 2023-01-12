@@ -1,0 +1,41 @@
+DCNv2 compiled correctly
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+==> initializing random_circle4 "val" data.
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Loaded val 2000 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/random_20k_circle4/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=1.10s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=18.25s).
+Accumulating evaluation results...
+DONE (t=2.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.677
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.747
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.720
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.004
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.507
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.875
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.300
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.757
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.810
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.719
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.936
+AP(10) = 0.0029649999999999638
+AR(10) = 0.10245937950937938
+AP(15) = 0.004084999999999947
+AR(15) = 0.1355482683982683
+AP(20) = 0.00512999999999993
+AR(20) = 0.1638437409812407

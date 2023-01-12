@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "test_line.py", line 54, in <module>
+    test(opt)
+  File "test_line.py", line 42, in test
+    ret = detector.run(img_path)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line_detector.py", line 60, in run
+    save_results(self.opt, image, results, dataset=self.opt.dataset)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line_detector.py", line 219, in save_results
+    image = add_lines(image,colors,line[:4], cat=j, conf=line[4], img_id='line')
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line_detector.py", line 231, in add_lines
+    txt = '{}{:.1f}'.format(self.names[cat-1], conf)
+NameError: name 'self' is not defined

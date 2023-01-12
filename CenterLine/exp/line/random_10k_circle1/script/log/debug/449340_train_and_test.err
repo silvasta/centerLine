@@ -1,0 +1,30 @@
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/functional.py:52: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:58: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Traceback (most recent call last):
+  File "main.py", line 117, in <module>
+    main(opt)
+  File "main.py", line 81, in main
+    log_dict_train, _ = trainer.train(epoch, train_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 125, in train
+    return self.run_epoch('train', epoch, data_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 71, in run_epoch
+    output, loss, loss_stats = model_with_loss(batch)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 124, in forward
+    return self.gather(outputs, self.output_device)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 136, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/scatter_gather.py", line 67, in gather
+    return gather_map(outputs)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/scatter_gather.py", line 62, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/scatter_gather.py", line 61, in gather_map
+    for k in out))
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/scatter_gather.py", line 61, in <genexpr>
+    for k in out))
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/scatter_gather.py", line 62, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+TypeError: zip argument #1 must support iteration

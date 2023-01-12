@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "random_synthetic_images.py", line 174, in <module>
+    main()
+  File "random_synthetic_images.py", line 170, in main
+    imageAnnotations.save(path_to_save_json)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/src/modules/LineAnnotator.py", line 32, in save
+    writeJson(out, path_to_save)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/src/modules/JsonHandler.py", line 11, in writeJson
+    jsonFile = open(path, "w")
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/silvasta/datasets/random_synthetic/test/random_0.json'
+rm: cannot remove 'test/*.json': No such file or directory
+rm: cannot remove 'train/*.json': No such file or directory
+rm: cannot remove 'val/*.json': No such file or directory

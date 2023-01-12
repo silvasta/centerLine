@@ -1,0 +1,16 @@
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/functional.py:52: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:58: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Traceback (most recent call last):
+  File "test.py", line 133, in <module>
+    prefetch_test(opt)
+  File "test.py", line 77, in prefetch_test
+    ret = detector.run(pre_processed_images)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/detectors/base_detector.py", line 124, in run
+    self.debug(debugger, images, dets, output, scale)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/detectors/multi_pose.py", line 94, in debug
+    output['hm_hp'][0].detach().cpu().numpy())
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/utils/debugger.py", line 154, in gen_colormap_hp
+    self.colors_hp, dtype=np.float32).reshape(-1, 3)[:c].reshape(1, 1, c, 3)
+AttributeError: 'Debugger' object has no attribute 'colors_hp'

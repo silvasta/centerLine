@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "main.py", line 119, in <module>
+    main(opt)
+  File "main.py", line 51, in main
+    trainer.set_device(opt.gpus, opt.chunk_sizes, opt.device)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 36, in set_device
+    chunk_sizes=chunk_sizes).to(device)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/data_parallel.py", line 127, in DataParallel
+    return torch.nn.DataParallel(module, device_ids, output_device, dim)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 111, in __init__
+    _check_balance(self.device_ids)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 17, in _check_balance
+    dev_props = [torch.cuda.get_device_properties(i) for i in device_ids]
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 17, in <listcomp>
+    dev_props = [torch.cuda.get_device_properties(i) for i in device_ids]
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/cuda/__init__.py", line 292, in get_device_properties
+    raise AssertionError("Invalid device id")
+AssertionError: Invalid device id
+Traceback (most recent call last):
+  File "test.py", line 60, in <module>
+    test(opt)
+  File "test.py", line 33, in test
+    detector = Detector(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 26, in __init__
+    super(LineDetector, self).__init__(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 25, in __init__
+    self.model = load_model(self.model, opt.load_model)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/model.py", line 31, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/random_10k_circle3/model_last.pth'

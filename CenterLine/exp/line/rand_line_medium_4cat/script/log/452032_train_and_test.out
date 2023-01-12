@@ -1,0 +1,19 @@
+DCNv2 compiled correctly
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+==> initializing rand_line_20k "val" data.
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Loaded val 2000 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution

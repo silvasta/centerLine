@@ -1,0 +1,4 @@
+12000 images are saved to: /scratch_net/biwidl213/silvasta/datasets/random_synthetic/
+task: test | length: 0
+/scratch_net/biwidl213/silvasta/datasets/random_synthetic/annotations/random_{}.json
+Successfully saved annotations!

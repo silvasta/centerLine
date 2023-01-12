@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    main(opt)
+  File "main.py", line 25, in main
+    Dataset = get_dataset(opt.dataset, opt.task)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/datasets/dataset_factory.py", line 24, in get_dataset
+    class Dataset(dataset_factory[dataset], _sample_factory[task]):
+KeyError: 'data=roboline'
+Traceback (most recent call last):
+  File "test.py", line 59, in <module>
+    test(opt)
+  File "test.py", line 25, in test
+    Dataset = dataset_factory[opt.dataset]
+KeyError: 'data=roboline'
+Traceback (most recent call last):
+  File "demo.py", line 56, in <module>
+    opt = opts().init()
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/opts.py", line 282, in init
+    dataset = Struct(default_dataset_info[opt.dataset])
+KeyError: 'roboline'

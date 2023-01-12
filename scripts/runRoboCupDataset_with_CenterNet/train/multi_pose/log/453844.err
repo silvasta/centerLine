@@ -1,0 +1,39 @@
+nms.c: In function ‘__pyx_pf_3nms_2soft_nms’:
+nms.c:3431:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+nms.c:3942:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+nms.c: In function ‘__pyx_pf_3nms_4soft_nms_39’:
+nms.c:5169:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+nms.c:5777:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+nms.c: In function ‘__pyx_pf_3nms_6soft_nms_merge’:
+nms.c:7122:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+nms.c:7825:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+       __pyx_t_8 = ((__pyx_v_pos < __pyx_v_N) != 0);
+                                 ^
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/Cython/Compiler/Main.py:369: FutureWarning: Cython directive 'language_level' not set, using 2 for now (Py2). This will change in a later release! File: /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/external/nms.pyx
+  tree = Parsing.p_module(s, pxd, full_module_name)
+Traceback (most recent call last):
+  File "main.py", line 105, in <module>
+    main(opt)
+  File "main.py", line 23, in main
+    opt = opts().update_dataset_info_and_set_heads(opt, Dataset)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/opts.py", line 327, in update_dataset_info_and_set_heads
+    opt.flip_idx = dataset.flip_idx
+AttributeError: type object 'Dataset' has no attribute 'flip_idx'
+Traceback (most recent call last):
+  File "test.py", line 133, in <module>
+    prefetch_test(opt)
+  File "test.py", line 57, in prefetch_test
+    opt = opts().update_dataset_info_and_set_heads(opt, Dataset)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/opts.py", line 327, in update_dataset_info_and_set_heads
+    opt.flip_idx = dataset.flip_idx
+AttributeError: type object 'ROBOCUP' has no attribute 'flip_idx'

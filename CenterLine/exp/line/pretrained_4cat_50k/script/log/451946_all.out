@@ -1,0 +1,8 @@
+DCNv2 compiled correctly
+opt.dataset data=roboline
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make

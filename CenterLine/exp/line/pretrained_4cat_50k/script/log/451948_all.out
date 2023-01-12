@@ -1,0 +1,17 @@
+DCNv2 compiled correctly
+opt.dataset line_4_cat
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_4_categories_20k/model_last.pth, epoch 97
+Setting up data...
+==> initializing roboline "val" data.
+loading annotations into memory...
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+==> initializing roboline "val" data.
+loading annotations into memory...
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make

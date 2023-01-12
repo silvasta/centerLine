@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "main.py", line 117, in <module>
+    main(opt)
+  File "main.py", line 81, in main
+    log_dict_train, _ = trainer.train(epoch, train_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 125, in train
+    return self.run_epoch('train', epoch, data_loader)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 71, in run_epoch
+    output, loss, loss_stats = model_with_loss(batch)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 123, in forward
+    outputs = self.parallel_apply(replicas, inputs, kwargs)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 133, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 77, in parallel_apply
+    raise output
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 53, in _worker
+    output = module(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/base_trainer.py", line 20, in forward
+    loss, loss_stats = self.loss(outputs, batch)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/trains/line.py", line 51, in forward
+    hm_loss += self.crit(output['hm'], batch['hm']) / opt.num_stacks
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/losses.py", line 62, in forward
+    return self.neg_loss(out, target)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/modules/module.py", line 518, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'FocalLoss' object has no attribute 'neg_loss'

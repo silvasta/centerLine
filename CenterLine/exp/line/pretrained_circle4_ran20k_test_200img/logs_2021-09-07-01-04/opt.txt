@@ -1,0 +1,81 @@
+==> torch version: 0.4.1
+==> cudnn version: 7104
+==> Cmd:
+['test.py', 'line', '--load_model', '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_20k_circle4/model_last.pth', '--dataset', 'roboline', '--exp_id', 'pretrained_circle4_ran20k_test_200img']
+==> Opt:
+  K: 100
+  annot_name: roboline
+  arch: resdcn_18
+  batch_size: 32
+  cat_spec_wh: False
+  center_thresh: 0.1
+  chunk_sizes: [32]
+  data_dir: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../data
+  dataset: roboline
+  debug: 0
+  debug_dir: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_circle4_ran20k_test_200img/debug
+  debugger_theme: white
+  demo: 
+  demo_out: 
+  dense_wh: False
+  down_ratio: 4
+  eval_oracle_hm: False
+  eval_oracle_offset: False
+  eval_oracle_wh: False
+  exp_dir: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line
+  exp_id: pretrained_circle4_ran20k_test_200img
+  fix_res: False
+  flip: 0.5
+  flip_test: False
+  gpus: [0]
+  gpus_str: 0
+  head_conv: 64
+  heads: {'hm': 1, 'wh': 2, 'reg': 2}
+  hide_data_time: False
+  hm_weight: 1
+  input_h: 480
+  input_res: 640
+  input_w: 640
+  keep_res: False
+  load_model: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_20k_circle4/model_last.pth
+  lr: 0.000125
+  lr_step: [90, 120]
+  master_batch_size: 32
+  mean: [[[0.40789655 0.44719303 0.47026116]]]
+  metric: loss
+  mse_loss: False
+  nms: False
+  no_color_aug: False
+  norm_wh: False
+  not_cuda_benchmark: False
+  not_rand_crop: False
+  not_reg_offset: False
+  num_classes: 1
+  num_epochs: 140
+  num_iters: -1
+  num_stacks: 1
+  num_workers: 4
+  off_weight: 1
+  output_h: 120
+  output_res: 160
+  output_w: 160
+  pad: 31
+  print_iter: 0
+  reg_loss: l1
+  reg_offset: True
+  resume: False
+  root_dir: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../..
+  rotate: 0
+  save_all: False
+  save_dir: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_circle4_ran20k_test_200img
+  scale: 1
+  seed: 317
+  shift: 0.1
+  std: [[[0.2886383  0.27408165 0.27809834]]]
+  task: line
+  test: False
+  test_scales: [1.0]
+  trainval: False
+  val_intervals: 5
+  vis_thresh: 0.3
+  wh_weight: 0.1

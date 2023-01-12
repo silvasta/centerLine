@@ -1,0 +1,1 @@
+/scratch/slurm/spool/job451380/slurm_script: line 21: 10178 Segmentation fault      python main.py line --num_epochs 50 --gpus 0,1 --dataset random_synthetic --annot_name random_circle3 --exp_id random_10k_circle3

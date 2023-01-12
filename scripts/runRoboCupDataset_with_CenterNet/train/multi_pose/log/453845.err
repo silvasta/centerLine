@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "main.py", line 105, in <module>
+    main(opt)
+  File "main.py", line 72, in main
+    log_dict_train, _ = trainer.train(epoch, train_loader)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/trains/base_trainer.py", line 119, in train
+    return self.run_epoch('train', epoch, data_loader)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/trains/base_trainer.py", line 61, in run_epoch
+    for iter_id, batch in enumerate(data_loader):
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 336, in __next__
+    return self._process_next_batch(batch)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 357, in _process_next_batch
+    raise batch.exc_type(batch.exc_msg)
+AttributeError: Traceback (most recent call last):
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 106, in _worker_loop
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 106, in <listcomp>
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/datasets/sample/multi_pose.py", line 80, in __getitem__
+    num_joints = self.num_joints
+AttributeError: 'Dataset' object has no attribute 'num_joints'
+
+Traceback (most recent call last):
+  File "test.py", line 133, in <module>
+    prefetch_test(opt)
+  File "test.py", line 64, in prefetch_test
+    detector = Detector(opt)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/detectors/multi_pose.py", line 26, in __init__
+    super(MultiPoseDetector, self).__init__(opt)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/detectors/base_detector.py", line 25, in __init__
+    self.model = load_model(self.model, opt.load_model)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/model.py", line 54, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/multi_pose/robocup_multi_pose_resdcn18/model_last.pth'

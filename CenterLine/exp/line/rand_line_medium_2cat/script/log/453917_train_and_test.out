@@ -1,0 +1,4 @@
+DCNv2 compiled correctly
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make

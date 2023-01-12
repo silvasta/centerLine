@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "test.py", line 133, in <module>
+    prefetch_test(opt)
+  File "test.py", line 87, in prefetch_test
+    dataset.run_eval(results, opt.save_dir)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/datasets/dataset/robocup.py", line 141, in run_eval
+    coco_eval.evaluate()
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 149, in evaluate
+    for imgId in p.imgIds
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 150, in <dictcomp>
+    for catId in catIds}
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 218, in computeOks
+    d = np.array(dt['keypoints'])
+KeyError: 'keypoints'
+Traceback (most recent call last):
+  File "test.py", line 133, in <module>
+    prefetch_test(opt)
+  File "test.py", line 87, in prefetch_test
+    dataset.run_eval(results, opt.save_dir)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/datasets/dataset/robocup.py", line 141, in run_eval
+    coco_eval.evaluate()
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 149, in evaluate
+    for imgId in p.imgIds
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 150, in <dictcomp>
+    for catId in catIds}
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/cocoeval.py", line 218, in computeOks
+    d = np.array(dt['keypoints'])
+KeyError: 'keypoints'

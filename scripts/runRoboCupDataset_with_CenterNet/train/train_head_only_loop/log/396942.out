@@ -1,0 +1,1073 @@
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+Including CUDA code.
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+generating /tmp/tmp3owos55h/_dcn_v2.c
+setting the current directory to '/tmp/tmp3owos55h'
+running build_ext
+building '_dcn_v2' extension
+creating scratch_net
+creating scratch_net/biwidl213
+creating scratch_net/biwidl213/silvasta
+creating scratch_net/biwidl213/silvasta/detectors
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c _dcn_v2.c -o ./_dcn_v2.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.o -std=c99 -fopenmp -std=c99
+gcc -pthread -shared -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -L/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,-rpath=/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_dcn_v2.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.cu.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda.cu.o -o ./_dcn_v2.so
+Including CUDA code.
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+generating /tmp/tmpwc58sczn/_dcn_v2_double.c
+setting the current directory to '/tmp/tmpwc58sczn'
+running build_ext
+building '_dcn_v2_double' extension
+creating scratch_net
+creating scratch_net/biwidl213
+creating scratch_net/biwidl213/silvasta
+creating scratch_net/biwidl213/silvasta/detectors
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c _dcn_v2_double.c -o ./_dcn_v2_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -shared -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -L/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,-rpath=/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_dcn_v2_double.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda_double.cu.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda_double.cu.o -o ./_dcn_v2_double.so
+python setup.py build_ext --inplace
+running build_ext
+rm -rf build
+60 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=60, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  39
+total freezed layers =  60
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.53s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.608
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.881
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.717
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.172
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.545
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.719
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.380
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.702
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.705
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.626
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.820
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 135
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.59s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.608
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.890
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.704
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.150
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.547
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.717
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.383
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.704
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.710
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.638
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.816
+61 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=61, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  38
+total freezed layers =  61
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.52s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.868
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.671
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.273
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.508
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.699
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.365
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.692
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.605
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.55s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.869
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.688
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.280
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.515
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.680
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.612
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.805
+62 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=62, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  37
+total freezed layers =  62
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.865
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.687
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.240
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.525
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.690
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.620
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.807
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.587
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.870
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.690
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.234
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.523
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.697
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.369
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.692
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.618
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+63 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=63, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  36
+total freezed layers =  63
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.570
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.859
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.660
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.207
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.513
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.676
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.361
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.694
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.701
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.620
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.815
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 115
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.53s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.575
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.856
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.666
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.516
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.684
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.363
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.702
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.618
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.819
+64 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=64, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  35
+total freezed layers =  64
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.574
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.865
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.673
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.251
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.509
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.689
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.616
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.816
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.57s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.568
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.862
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.663
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.218
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.678
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.365
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.694
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.612
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+65 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=65, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  34
+total freezed layers =  65
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.61s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.578
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.863
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.672
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.513
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.809
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 135
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.58s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.579
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.862
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.662
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.234
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.516
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.688
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.624
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.805
+66 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=66, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  33
+total freezed layers =  66
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.570
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.862
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.685
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.276
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.512
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.674
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.365
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.681
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.617
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.54s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.578
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.866
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.680
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.262
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.518
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.683
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.618
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.814
+67 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=67, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  32
+total freezed layers =  67
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.57s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.546
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.856
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.623
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.207
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.493
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.651
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.354
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.651
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.672
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.776
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.58s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.549
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.863
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.193
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.496
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.648
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.653
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.781
+68 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=68, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  31
+total freezed layers =  68
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...
+Drop LR to 1.25e-05
+Drop LR to 1.2500000000000003e-06
+...training finished!
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.56s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.553
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.844
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.667
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.184
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.502
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.356
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.662
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.371
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.601
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.795
+Keep resolution testing.
+training chunk_sizes: [32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=False, flip=0.5, flip_test=False, freezedLayers=0, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=True, kitti_split='3dop', load_model='../exp/ctdet/robocup_head_loop/model_best.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  99
+total freezed layers =  0
+end of test
+loaded ../exp/ctdet/robocup_head_loop/model_best.pth, epoch 120
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.55s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.559
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.853
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.678
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.355
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.665
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.606
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.799
+69 params of 99 are freezed now!
+Fix size testing.
+training chunk_sizes: [15, 17]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[15, 17], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='robocup', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='robocup_head_loop', fix_res=True, flip=0.5, flip_test=False, freezedLayers=69, gpus=[0, 1], gpus_str='0,1', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=640, input_res=640, input_w=480, keep_res=False, kitti_split='3dop', load_model='/scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=15, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=160, output_res=160, output_w=120, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/robocup_head_loop', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+start of set requires_grad (file model.py)
+total unfreezed layers =  30
+total freezed layers =  69
+end of test
+loaded /scratch_net/biwidl213/silvasta/detectors/CenterNet/models/ctdet_coco_resdcn18.pth, epoch 140
+Setting up data...
+==> initializing RoboCup 2019 val data.
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loaded val 93 samples
+==> initializing RoboCup 2019 train data.
+loading annotations into memory...
+Done (t=0.06s)
+creating index...
+index created!
+Loaded train 861 samples
+Starting training...

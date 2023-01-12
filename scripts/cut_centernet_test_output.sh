@@ -1,0 +1,4 @@
+target=
+
+echo $target
+

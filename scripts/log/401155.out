@@ -1,0 +1,7 @@
+task: test | length: 0
+task: train | length: 0
+task: val | length: 0
+/scratch_net/biwidl213/silvasta/datasets/random_synthetic/annotations/random_{}.json
+/scratch_net/biwidl213/silvasta/datasets/random_synthetic/annotations/random_{}.json
+/scratch_net/biwidl213/silvasta/datasets/random_synthetic/annotations/random_{}.json
+Successfully saved annotations!

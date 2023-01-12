@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "main.py", line 119, in <module>
+    main(opt)
+  File "main.py", line 55, in main
+    Dataset(opt, 'val'), 
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/datasets/dataset/random_synthetic.py", line 52, in __init__
+    self.coco = coco.COCO(self.annot_path)
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/coco.py", line 84, in __init__
+    dataset = json.load(open(annotation_file, 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../data/random_circle4/annotations/random_val.json'
+Traceback (most recent call last):
+  File "test.py", line 60, in <module>
+    test(opt)
+  File "test.py", line 32, in test
+    dataset = Dataset(opt, split)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/datasets/dataset/random_synthetic.py", line 52, in __init__
+    self.coco = coco.COCO(self.annot_path)
+  File "/home/silvasta/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/coco.py", line 84, in __init__
+    dataset = json.load(open(annotation_file, 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../data/random_circle4/annotations/random_val.json'

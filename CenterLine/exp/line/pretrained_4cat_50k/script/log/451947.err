@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    main(opt)
+  File "main.py", line 25, in main
+    Dataset = get_dataset(opt.dataset, opt.task)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/datasets/dataset_factory.py", line 24, in get_dataset
+    class Dataset(dataset_factory[dataset], _sample_factory[task]):
+KeyError: 'data=roboline'
+Traceback (most recent call last):
+  File "test.py", line 59, in <module>
+    test(opt)
+  File "test.py", line 25, in test
+    Dataset = dataset_factory[opt.dataset]
+KeyError: 'data=roboline'
+Traceback (most recent call last):
+  File "demo.py", line 57, in <module>
+    demo(opt)
+  File "demo.py", line 50, in demo
+    ret = detector.run(image_name)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 140, in run
+    self.show_results(debugger, image, results)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 97, in show_results
+    debugger.add_lines(bbox[:4], j - 1, bbox[4], img_id='ctdet')
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/debugger.py", line 184, in add_lines
+    print_lines(self.imgs[img_id], bbox[0:4], color=c,cat=cat)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/metric.py", line 129, in print_lines
+    line = bbox_to_line(cat=cat, bbox=bbox)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/metric.py", line 110, in bbox_to_line
+    return (p1, p2)
+UnboundLocalError: local variable 'p1' referenced before assignment

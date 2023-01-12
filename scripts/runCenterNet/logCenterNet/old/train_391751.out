@@ -1,0 +1,96 @@
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+Including CUDA code.
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+generating /tmp/tmpf9ov3tju/_dcn_v2.c
+setting the current directory to '/tmp/tmpf9ov3tju'
+running build_ext
+building '_dcn_v2' extension
+creating scratch_net
+creating scratch_net/biwidl213
+creating scratch_net/biwidl213/silvasta
+creating scratch_net/biwidl213/silvasta/detectors
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c _dcn_v2.c -o ./_dcn_v2.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.o -std=c99 -fopenmp -std=c99
+gcc -pthread -shared -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -L/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,-rpath=/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_dcn_v2.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.cu.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda.cu.o -o ./_dcn_v2.so
+Including CUDA code.
+/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+generating /tmp/tmphp8uiifd/_dcn_v2_double.c
+setting the current directory to '/tmp/tmphp8uiifd'
+running build_ext
+building '_dcn_v2_double' extension
+creating scratch_net
+creating scratch_net/biwidl213
+creating scratch_net/biwidl213/silvasta
+creating scratch_net/biwidl213/silvasta/detectors
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2
+creating scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c _dcn_v2_double.c -o ./_dcn_v2_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/include/python3.6m -c /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.c -o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.o -std=c99 -fopenmp -std=c99
+gcc -pthread -shared -B /scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/compiler_compat -L/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,-rpath=/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_dcn_v2_double.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_double.o ./scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/dcn_v2_cuda_double.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda_double.cu.o /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda_double.cu.o -o ./_dcn_v2_double.so
+python setup.py build_ext --inplace
+running build_ext
+rm -rf build
+Fix size testing.
+training chunk_sizes: [18, 32, 32, 32]
+The output will be saved to  /scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/coco_resdcn18
+heads {'hm': 80, 'wh': 2, 'reg': 2}
+Namespace(K=100, aggr_weight=0.0, agnostic_ex=False, arch='resdcn_18', aug_ddd=0.5, aug_rot=0, batch_size=114, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[18, 32, 32, 32], data_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../data', dataset='coco', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/coco_resdcn18/debug', debugger_theme='white', demo='', dense_hp=False, dense_wh=False, dep_weight=1, dim_weight=1, down_ratio=4, eval_oracle_dep=False, eval_oracle_hm=False, eval_oracle_hmhp=False, eval_oracle_hp_offset=False, eval_oracle_kps=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet', exp_id='coco_resdcn18', fix_res=True, flip=0.5, flip_test=False, gpus=[0, 1, 2, 3], gpus_str='0,1,2,3', head_conv=64, heads={'hm': 80, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_hp=True, hm_hp_weight=1, hm_weight=1, hp_weight=1, input_h=512, input_res=512, input_w=512, keep_res=False, kitti_split='3dop', load_model='', lr=0.0005, lr_step=[90, 120], master_batch_size=18, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_hm_hp=False, not_prefetch_test=False, not_rand_crop=False, not_reg_bbox=False, not_reg_hp_offset=False, not_reg_offset=False, num_classes=80, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=16, off_weight=1, output_h=128, output_res=128, output_w=128, pad=31, peak_thresh=0.2, print_iter=0, rect_mask=False, reg_bbox=True, reg_hp_offset=True, reg_loss='l1', reg_offset=True, resume=False, root_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../..', rot_weight=1, rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/../../exp/ctdet/coco_resdcn18', scale=0.4, scores_thresh=0.1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='ctdet', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+Setting up data...
+==> initializing coco 2017 val data.
+loading annotations into memory...
+Done (t=0.77s)
+creating index...
+index created!
+Loaded val 5000 samples
+==> initializing coco 2017 train data.
+loading annotations into memory...
+Done (t=18.70s)
+creating index...
+index created!
+Loaded train 118287 samples
+Starting training...
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/functional.py:52: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:58: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ Traceback (most recent call last):
+  File "main.py", line 102, in <module>
+    main(opt)
+  File "main.py", line 70, in main
+    log_dict_train, _ = trainer.train(epoch, train_loader)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/trains/base_trainer.py", line 119, in train
+    return self.run_epoch('train', epoch, data_loader)
+  File "/scratch_net/biwidl213/silvasta/detectors/CenterNet/src/lib/trains/base_trainer.py", line 61, in run_epoch
+    for iter_id, batch in enumerate(data_loader):
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 330, in __next__
+    idx, batch = self._get_batch()
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 309, in _get_batch
+    return self.data_queue.get()
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/queue.py", line 164, in get
+    self.not_empty.wait()
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/threading.py", line 295, in wait
+    waiter.acquire()
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 227, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 28738) is killed by signal: Bus error. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.

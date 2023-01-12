@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "demo.py", line 57, in <module>
+    demo(opt)
+  File "demo.py", line 21, in demo
+    detector = Detector(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 26, in __init__
+    super(LineDetector, self).__init__(opt)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 25, in __init__
+    self.model = load_model(self.model, opt.load_model)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/model.py", line 31, in load_model
+    checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/default/model_last.pth'

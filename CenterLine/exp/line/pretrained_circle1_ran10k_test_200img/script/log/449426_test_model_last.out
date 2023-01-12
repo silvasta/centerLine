@@ -1,0 +1,20 @@
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_10k_circle1/model_last.pth, epoch 140
+tot 0.132s |load 0.002s |pre 0.086s |net 0.013s |dec 0.001s |post 0.029s |merge 0.000s |
+tot 0.055s |load 0.002s |pre 0.015s |net 0.007s |dec 0.001s |post 0.031s |merge 0.000s |
+tot 0.049s |load 0.002s |pre 0.013s |net 0.007s |dec 0.001s |post 0.027s |merge 0.000s |
+tot 0.053s |load 0.002s |pre 0.012s |net 0.007s |dec 0.001s |post 0.032s |merge 0.000s |
+tot 0.060s |load 0.002s |pre 0.018s |net 0.007s |dec 0.001s |post 0.032s |merge 0.000s |
+tot 0.053s |load 0.002s |pre 0.016s |net 0.007s |dec 0.001s |post 0.027s |merge 0.000s |
+tot 0.054s |load 0.006s |pre 0.015s |net 0.007s |dec 0.001s |post 0.025s |merge 0.000s |
+tot 0.053s |load 0.005s |pre 0.014s |net 0.007s |dec 0.001s |post 0.026s |merge 0.000s |
+tot 0.053s |load 0.006s |pre 0.014s |net 0.007s |dec 0.001s |post 0.024s |merge 0.000s |
+tot 0.054s |load 0.005s |pre 0.013s |net 0.007s |dec 0.001s |post 0.028s |merge 0.000s |
+tot 0.052s |load 0.005s |pre 0.014s |net 0.007s |dec 0.001s |post 0.025s |merge 0.000s |
+tot 0.058s |load 0.010s |pre 0.016s |net 0.007s |dec 0.001s |post 0.025s |merge 0.000s |
+tot 0.054s |load 0.005s |pre 0.014s |net 0.007s |dec 0.001s |post 0.026s |merge 0.000s |

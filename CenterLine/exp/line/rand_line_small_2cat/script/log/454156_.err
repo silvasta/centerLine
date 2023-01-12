@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "test_line.py", line 54, in <module>
+    test(opt)
+  File "test_line.py", line 42, in test
+    ret = detector.run(img_path)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line_detector.py", line 64, in run
+    save_results(self.opt, img, results, dataset=self.opt.dataset)
+NameError: name 'img' is not defined

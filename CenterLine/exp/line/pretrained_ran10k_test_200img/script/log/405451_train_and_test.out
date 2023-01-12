@@ -1,0 +1,197 @@
+DCNv2 compiled correctly
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_10k/model_last.pth, epoch 140
+Setting up data...
+==> initializing robocup val data.
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Loaded val 97 samples
+==> initializing robocup train data.
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Loaded train 200 samples
+Starting training...
+Epoch 1 finished
+Epoch 2 finished
+Epoch 3 finished
+Epoch 4 finished
+Epoch 5 finished
+Epoch 6 finished
+Epoch 7 finished
+Epoch 8 finished
+Epoch 9 finished
+Epoch 10 finished
+Epoch 11 finished
+Epoch 12 finished
+Epoch 13 finished
+Epoch 14 finished
+Epoch 15 finished
+Epoch 16 finished
+Epoch 17 finished
+Epoch 18 finished
+Epoch 19 finished
+Epoch 20 finished
+Epoch 21 finished
+Epoch 22 finished
+Epoch 23 finished
+Epoch 24 finished
+Epoch 25 finished
+Epoch 26 finished
+Epoch 27 finished
+Epoch 28 finished
+Epoch 29 finished
+Epoch 30 finished
+Epoch 31 finished
+Epoch 32 finished
+Epoch 33 finished
+Epoch 34 finished
+Epoch 35 finished
+Epoch 36 finished
+Epoch 37 finished
+Epoch 38 finished
+Epoch 39 finished
+Epoch 40 finished
+Epoch 41 finished
+Epoch 42 finished
+Epoch 43 finished
+Epoch 44 finished
+Epoch 45 finished
+Epoch 46 finished
+Epoch 47 finished
+Epoch 48 finished
+Epoch 49 finished
+Epoch 50 finished
+Epoch 51 finished
+Epoch 52 finished
+Epoch 53 finished
+Epoch 54 finished
+Epoch 55 finished
+Epoch 56 finished
+Epoch 57 finished
+Epoch 58 finished
+Epoch 59 finished
+Epoch 60 finished
+Epoch 61 finished
+Epoch 62 finished
+Epoch 63 finished
+Epoch 64 finished
+Epoch 65 finished
+Epoch 66 finished
+Epoch 67 finished
+Epoch 68 finished
+Epoch 69 finished
+Epoch 70 finished
+Epoch 71 finished
+Epoch 72 finished
+Epoch 73 finished
+Epoch 74 finished
+Epoch 75 finished
+Epoch 76 finished
+Epoch 77 finished
+Epoch 78 finished
+Epoch 79 finished
+Epoch 80 finished
+Epoch 81 finished
+Epoch 82 finished
+Epoch 83 finished
+Epoch 84 finished
+Epoch 85 finished
+Epoch 86 finished
+Epoch 87 finished
+Epoch 88 finished
+Epoch 89 finished
+Drop LR to 1.25e-05
+Epoch 90 finished
+Epoch 91 finished
+Epoch 92 finished
+Epoch 93 finished
+Epoch 94 finished
+Epoch 95 finished
+Epoch 96 finished
+Epoch 97 finished
+Epoch 98 finished
+Epoch 99 finished
+Epoch 100 finished
+Epoch 101 finished
+Epoch 102 finished
+Epoch 103 finished
+Epoch 104 finished
+Epoch 105 finished
+Epoch 106 finished
+Epoch 107 finished
+Epoch 108 finished
+Epoch 109 finished
+Epoch 110 finished
+Epoch 111 finished
+Epoch 112 finished
+Epoch 113 finished
+Epoch 114 finished
+Epoch 115 finished
+Epoch 116 finished
+Epoch 117 finished
+Epoch 118 finished
+Epoch 119 finished
+Drop LR to 1.2500000000000003e-06
+Epoch 120 finished
+Epoch 121 finished
+Epoch 122 finished
+Epoch 123 finished
+Epoch 124 finished
+Epoch 125 finished
+Epoch 126 finished
+Epoch 127 finished
+Epoch 128 finished
+Epoch 129 finished
+Epoch 130 finished
+Epoch 131 finished
+Epoch 132 finished
+Epoch 133 finished
+Epoch 134 finished
+Epoch 135 finished
+Epoch 136 finished
+Epoch 137 finished
+Epoch 138 finished
+Epoch 139 finished
+Epoch 140 finished
+...training finished!
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+Namespace(K=100, annot_name='roboline', arch='resdcn_18', batch_size=32, cat_spec_wh=False, center_thresh=0.1, chunk_sizes=[32], data_dir='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../data', dataset='roboline', debug=0, debug_dir='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_ran10k_test_200img/debug', debugger_theme='white', demo='', demo_out='', dense_wh=False, down_ratio=4, eval_oracle_hm=False, eval_oracle_offset=False, eval_oracle_wh=False, exp_dir='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line', exp_id='pretrained_ran10k_test_200img', fix_res=False, flip=0.5, flip_test=False, gpus=[0], gpus_str='0', head_conv=64, heads={'hm': 1, 'wh': 2, 'reg': 2}, hide_data_time=False, hm_weight=1, input_h=480, input_res=640, input_w=640, keep_res=False, load_model='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_ran10k_test_200img/model_last.pth', lr=0.000125, lr_step=[90, 120], master_batch_size=32, mean=array([[[0.40789655, 0.44719303, 0.47026116]]], dtype=float32), metric='loss', mse_loss=False, nms=False, no_color_aug=False, norm_wh=False, not_cuda_benchmark=False, not_rand_crop=False, not_reg_offset=False, num_classes=1, num_epochs=140, num_iters=-1, num_stacks=1, num_workers=4, off_weight=1, output_h=120, output_res=160, output_w=160, pad=31, print_iter=0, reg_loss='l1', reg_offset=True, resume=True, root_dir='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../..', rotate=0, save_all=False, save_dir='/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_ran10k_test_200img', scale=1, seed=317, shift=0.1, std=array([[[0.2886383 , 0.27408165, 0.27809834]]], dtype=float32), task='line', test=False, test_scales=[1.0], trainval=False, val_intervals=5, vis_thresh=0.3, wh_weight=0.1)
+==> initializing robocup val data.
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Loaded val 97 samples
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/../../exp/line/pretrained_ran10k_test_200img/model_last.pth, epoch 140
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.54s).
+Accumulating evaluation results...
+DONE (t=0.08s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.059
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.116
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.060
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.297
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.057
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.096
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.123
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.007
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.429

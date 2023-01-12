@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    from models.model import create_model, load_model, save_model
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/model.py", line 12, in <module>
+    from .networks.resnet_dcn import get_pose_net as get_pose_net_dcn
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/networks/resnet_dcn.py", line 18, in <module>
+    from .DCNv2.dcn_v2 import DCN
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/networks/DCNv2/dcn_v2.py", line 11, in <module>
+    from .dcn_v2_func import DCNv2Function
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/networks/DCNv2/dcn_v2_func.py", line 9, in <module>
+    from ._ext import dcn_v2 as _backend
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/networks/DCNv2/_ext/dcn_v2/__init__.py", line 3, in <module>
+    from ._dcn_v2 import lib as _lib, ffi as _ffi
+ImportError: /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/models/networks/DCNv2/_ext/dcn_v2/_dcn_v2.so: undefined symbol: __cudaRegisterFatBinaryEnd

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "test_test.py", line 62, in <module>
+    test(opt)
+  File "test_test.py", line 46, in test
+    ret = detector.run(img_path)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/base_detector.py", line 140, in run
+    self.show_results(debugger, image, results)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/detectors/line.py", line 100, in show_results
+    debugger.save_all_imgs(path=self.opt.demo_out, genID=True)
+  File "/scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/src/lib/utils/debugger.py", line 251, in save_all_imgs
+    np.savetxt(path + '/id.txt', np.ones(1) * (idx + 1), fmt='%d')
+  File "<__array_function__ internals>", line 6, in savetxt
+  File "/scratch_net/biwidl213/silvasta/apps/Conda/conda_envs/CenterNet/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1357, in savetxt
+    open(fname, 'wt').close()
+PermissionError: [Errno 13] Permission denied: '/id.txt'

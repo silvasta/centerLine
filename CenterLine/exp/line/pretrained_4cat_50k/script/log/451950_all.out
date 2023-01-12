@@ -1,0 +1,23 @@
+DCNv2 compiled correctly
+NMS not imported! If you need it, do 
+ cd $CenterNet_ROOT/src/lib/external 
+ make
+Creating model...
+=> loading pretrained model https://download.pytorch.org/models/resnet18-5c106cde.pth
+=> init deconv weights from normal distribution
+loaded /scratch_net/biwidl213/silvasta/bachelor-thesis-line-detection/CenterLine/exp/line/random_4_categories_20k/model_last.pth, epoch 97
+Skip loading parameter hm.2.weight, required shapetorch.Size([1, 64, 1, 1]), loaded shapetorch.Size([4, 64, 1, 1]). If you see this, your model does not fully load the pre-trained weight. Please make sure you have correctly specified --arch xxx or set the correct --num_classes for your own dataset.
+Skip loading parameter hm.2.bias, required shapetorch.Size([1]), loaded shapetorch.Size([4]). If you see this, your model does not fully load the pre-trained weight. Please make sure you have correctly specified --arch xxx or set the correct --num_classes for your own dataset.
+tot 0.121s |load 0.002s |pre 0.080s |net 0.014s |dec 0.002s |post 0.022s |merge 0.000s |
+tot 0.071s |load 0.016s |pre 0.021s |net 0.012s |dec 0.001s |post 0.021s |merge 0.000s |
+tot 0.065s |load 0.013s |pre 0.020s |net 0.012s |dec 0.001s |post 0.019s |merge 0.000s |
+tot 0.067s |load 0.013s |pre 0.020s |net 0.012s |dec 0.001s |post 0.022s |merge 0.000s |
+tot 0.066s |load 0.012s |pre 0.021s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.066s |load 0.013s |pre 0.020s |net 0.012s |dec 0.001s |post 0.021s |merge 0.000s |
+tot 0.057s |load 0.006s |pre 0.020s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.056s |load 0.006s |pre 0.018s |net 0.012s |dec 0.001s |post 0.019s |merge 0.000s |
+tot 0.055s |load 0.005s |pre 0.018s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.054s |load 0.006s |pre 0.014s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.051s |load 0.005s |pre 0.014s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.051s |load 0.005s |pre 0.014s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |
+tot 0.052s |load 0.006s |pre 0.014s |net 0.012s |dec 0.001s |post 0.020s |merge 0.000s |

@@ -1,0 +1,14 @@
+#CenterNet:
+opencv-python
+# Cython
+numba
+progress
+# matplotlib
+# easydict
+# scipy
+
+#Own:
+pycocotools
+
+
+# conda create --name test_line python=3.8.11 pytorch torchvision cudatoolkit=10.1 --channel pytorch
